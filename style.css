@@ -1,0 +1,83 @@
+body {
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+#logo {
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+#logo img {
+  width: 60%;
+  margin-left: -25px;
+}
+
+.side-description {
+  background-color: #001333;
+  height: 100vh;
+  padding: 35px;
+}
+
+.descriptionText {
+  color: #fff;
+}
+
+.descriptionText h3 {
+  font-weight: bold;
+}
+
+.descriptionText span {
+  font-size: 0.9em;
+  color: grey;
+  margin-top: 10px;
+}
+
+#login-main {
+  background-color: #f4f8fb;
+  height: 100vh;
+  /* width: 100%; */
+}
+
+#sign-up {
+  float: right;
+  margin: 25px;
+}
+
+#sign-up a {
+  background-color: #fff;
+  border-color: transparent;
+  color: #0d6efd;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+}
+
+#login-form .card {
+  border-color: transparent;
+  margin-top: 15vh;
+}
+
+form {
+  margin: 25px 0;
+}
+
+.card-title {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 0.75em;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 5px;
+}
+.forgot-password a {
+  text-decoration: none;
+  font-size: 0.9em;
+}
